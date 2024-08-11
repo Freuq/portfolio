@@ -143,7 +143,7 @@ export const dataPortfolio = [
     {
         id: 2,
         title: "Predicción de Alquiler por medio de DL",
-        image: "/image-2.jpg",
+        image: "/image-preddiction.JPG",
         urlGithub: "/error",
         urlDemo: "",
     },
