@@ -9,7 +9,7 @@ const Introduction = () => {
         <div className="z-20 w-full bg-darkBg60">
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                 <Image src="/image-alfredo-large.png" priority width="350" height="350" alt="Profile pic"  />
+                 <Image src="/image-alfredo-large.png" priority width="325" height="325" alt="Profile pic"  />
 
             </div>
 
