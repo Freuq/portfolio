@@ -13,11 +13,11 @@ const SliderServices = () => {
             spaceBetween: 15
             },
             768: {
-                slidesPerView: 1, 
+                slidesPerView: 2, 
                 spaceBetween: 15
             },
             1024: {
-                slidesPerView: 1, 
+                slidesPerView: 3, 
                 spaceBetween: 15}
             }}
             freeMode={true}
@@ -28,10 +28,10 @@ const SliderServices = () => {
             className="h-[280px] md:h-[340px] w-[270px] md:w-[550px]">
                 {serviceData.map((item,index) => (
                     <SwiperSlide key={index}>
-                        <div className="flex px-6 py-10 h-auto md:h-[190px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-3 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
-                            <div className="mb-4 text-4xl text-secondary">{item.icon}</div>
+                        <div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-3 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
+                            <div className="mb-2 text-6xl text-secondary">{item.icon}</div>
                             <div>
-                                <h3 className="mb-4 text-lg"> {item.title}</h3>
+                                <h3 className="mb-2 text-lg"> {item.title}</h3>
                                 <p className="text-sm">{item.description}</p>
                             </div>
                         </div>
