@@ -9,7 +9,7 @@ const PageAboutMe = () => {
         <>
             <TransitionPage />
             <ContainerPage>
-                <Avatar />
+                {/*<Avatar />*/}
                 <h1 className="tet-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">Toda mi{' '}
 
                     <span className="font-bold text-secondary">
