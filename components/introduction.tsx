@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 const Introduction = () => {
     return (
         <div className="z-20 w-full bg-darkBg60">
-            <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
+            <div className="z-10 grid items-center h-full p-6 py-10 md:py-0 md:grid-cols-2">
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
                  <Image src="/image-alfredo-large.png" priority width="425" height="425" alt="Profile pic"  />
 
@@ -42,9 +42,16 @@ const Introduction = () => {
                             Ver proyectos
                         </Link>
                         <Link href="/Alfredo_Blanco_CV.pdf" className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary  border-secondary w-fit rounded-xl hover:shadow-xl hover:shadow-secondary/20">
-                            Curriculum Vitae
+                            Descargar CV
                         </Link>
                     </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                 </div>
             </div>
         
