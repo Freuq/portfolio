@@ -12,7 +12,7 @@ const TestimonialsPage = () => {
         <>
             <TransitionPage />
             <div className="flex flex-col justify-center h-lvh">
-                <CircleImage />
+                {/*<CircleImage />*/}
                 <h1 className="text-2xl leading-tight text-center md:text4xl md:mb-5">
                     Algunos comentarios 
                     <span className="block font-bold text-secondary">
