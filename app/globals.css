@@ -19,6 +19,24 @@ main {
     background-color: #003737
   }
 
+  .custom-pagination {
+    position: absolute; /* Asegúrate de que esté posicionado correctamente */
+    bottom: 10px; /* Ajusta según sea necesario */
+    left: 50%;
+    transform: translateX(-50%); /* Centra horizontalmente */
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los bullets, opcional */
+    z-index: 1000; /* Asegúrate de que esté encima de otros elementos */
+}
+
+
+.custom-pagination .swiper-pagination-bullet-active {
+    background-color: #007aff; /* Color del bullet activo */
+}
+
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
