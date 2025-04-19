@@ -171,14 +171,14 @@ export const dataPortfolio = [
         title: "Valorant: Sep-Oct",
         image: "/image-valorant.png",
         urlGithub: "https://github.com/Freuq/Valorant-Sep-Oct",
-        urlDemo: "https://alfredoblancobifano.vercel.app/reports",
+        urlDemo: "/reports",
     },
     {
         id: 6,
         title: "AdventureWorks 2019",
         image: "/image-adventureworks.png",
         urlGithub: "https://github.com/Freuq/AdventureWorks2019",
-        urlDemo: "https://alfredoblancobifano.vercel.app/reports",
+        urlDemo: "/reports",
     },
     {
         id: 7,
