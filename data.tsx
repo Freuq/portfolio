@@ -196,7 +196,7 @@ export const dataPortfolio = [
     }
 ];
 
-/*export const dataTestimonials = [
+export const dataTestimonials = [
     {
         id: 1,
         name: "",
@@ -204,4 +204,4 @@ export const dataPortfolio = [
             "",
         imageUrl: "/profile1.png",
     }
-];*/
+];
