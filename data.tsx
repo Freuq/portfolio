@@ -171,14 +171,14 @@ export const dataPortfolio = [
         title: "Valorant: Sep-Oct",
         image: "/image-valorant.png",
         urlGithub: "https://github.com/Freuq/Valorant-Sep-Oct",
-        urlDemo: "https://app.powerbi.com/view?r=eyJrIjoiMmMyZjhkMDgtZWI0NS00Y2NkLThmZWItODQxNmViMTEzYzRkIiwidCI6IjAyNzYxMDQwLWRkYzYtNDU5NS05OTk2LTMyNzc0YTFmOTJmMyIsImMiOjl9",
+        urlDemo: "https://alfredoblancobifano.vercel.app/reports",
     },
     {
         id: 6,
         title: "AdventureWorks 2019",
         image: "/image-adventureworks.png",
         urlGithub: "https://github.com/Freuq/AdventureWorks2019",
-        urlDemo: "https://app.powerbi.com/view?r=eyJrIjoiYjA1NDhhODItMjRlOS00ZmM2LTg4MGEtMDg5MDlhZjY2Y2E2IiwidCI6IjAyNzYxMDQwLWRkYzYtNDU5NS05OTk2LTMyNzc0YTFmOTJmMyIsImMiOjl9",
+        urlDemo: "https://alfredoblancobifano.vercel.app/reports",
     },
     {
         id: 7,
@@ -214,7 +214,7 @@ export const powerBIReports = [
     },
     {
       id: 2,
-      title: "AdventureWorks 2019",
+      title: "AdventureWorks",
       url: "https://app.powerbi.com/view?r=eyJrIjoiYjA1NDhhODItMjRlOS00ZmM2LTg4MGEtMDg5MDlhZjY2Y2E2IiwidCI6IjAyNzYxMDQwLWRkYzYtNDU5NS05OTk2LTMyNzc0YTFmOTJmMyIsImMiOjl9"
     }
   ];
