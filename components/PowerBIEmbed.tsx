@@ -9,7 +9,7 @@ interface PowerBIEmbedProps {
 
 const PowerBIEmbed = ({ url, title }: PowerBIEmbedProps) => {
   return (
-    <div className="w-full aspect-[16/9] min-h-[610px] mb-20"> {/* <- margen inferior extra */}
+    <div className="w-full aspect-[16/9] min-h-[615px] mb-20"> {/* <- margen inferior extra */}
       {title && (
         <h1 className="text-1xl md:text-4xl font-bold mb-6">
           {title}
