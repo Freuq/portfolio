@@ -1,6 +1,6 @@
 import ContainerPage from "@/components/container"
 import TransitionPage from "@/components/transition-page";
-import TableauEmbed from "@/data";
+import TableauEmbed from "@/components/reports";
 
 const EmbeddedReportsPage = () => {
     return (
