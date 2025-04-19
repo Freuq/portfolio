@@ -1,6 +1,8 @@
 import ContainerPage from "@/components/container"
 import TransitionPage from "@/components/transition-page";
-import TableauEmbed from "@/components/reports";
+import PowerBIEmbed from "@/components/PowerBIEmbed";
+import TableauEmbed from "@/components/TableauEmbed";
+import { powerBIReports } from "@/data";
 
 const EmbeddedReportsPage = () => {
     return (
@@ -13,22 +15,13 @@ const EmbeddedReportsPage = () => {
           </h1>
   
           <div className="w-full max-w-5xl space-y-10 px-4">
-            {/* Power BI Embed */}
-            <div className="w-full h-full">
-              <iframe
-                title="Power BI Dashboard"
-                width="100%"
-                height="100%"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmMyZjhkMDgtZWI0NS00Y2NkLThmZWItODQxNmViMTEzYzRkIiwidCI6IjAyNzYxMDQwLWRkYzYtNDU5NS05OTk2LTMyNzc0YTFmOTJmMyIsImMiOjl9"
-                frameBorder="0"
-                allowFullScreen
-              ></iframe>
-            </div>
+            {/* Power BI Reports */}
+            {powerBIReports.map((report) => (
+              <PowerBIEmbed key={report.id} url={report.url} title={report.title} />
+            ))}
   
             {/* Tableau Embed */}
-            <div className="w-full h-[600px]">
-                <TableauEmbed />
-            </div>
+            <TableauEmbed />
           </div>
         </div>
       </ContainerPage>

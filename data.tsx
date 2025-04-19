@@ -205,3 +205,17 @@ export const dataTestimonials = [
         imageUrl: "/profile1.png",
     }
 ];
+
+export const powerBIReports = [
+    {
+      id: 1,
+      title: "Valorant: Sep-Oct",
+      url: "https://app.powerbi.com/view?r=eyJrIjoiMmMyZjhkMDgtZWI0NS00Y2NkLThmZWItODQxNmViMTEzYzRkIiwidCI6IjAyNzYxMDQwLWRkYzYtNDU5NS05OTk2LTMyNzc0YTFmOTJmMyIsImMiOjl9"
+    },
+    {
+      id: 2,
+      title: "AdventureWorks 2019",
+      url: "https://app.powerbi.com/view?r=eyJrIjoiYjA1NDhhODItMjRlOS00ZmM2LTg4MGEtMDg5MDlhZjY2Y2E2IiwidCI6IjAyNzYxMDQwLWRkYzYtNDU5NS05OTk2LTMyNzc0YTFmOTJmMyIsImMiOjl9"
+    }
+  ];
+  
