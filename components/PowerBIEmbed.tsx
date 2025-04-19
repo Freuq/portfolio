@@ -9,10 +9,12 @@ interface PowerBIEmbedProps {
 
 const PowerBIEmbed = ({ url, title }: PowerBIEmbedProps) => {
   return (
-    <div className="w-full aspect-[16/9] min-h-[600px]">
-      {title && <h1 className="text-1xl md:text-4xl font-bold mb-6">
-            {title}
-          </h1>}
+    <div className="w-full aspect-[16/9] min-h-[600px] mb-20"> {/* <- margen inferior extra */}
+      {title && (
+        <h1 className="text-1xl md:text-4xl font-bold mb-6">
+          {title}
+        </h1>
+      )}
       <iframe
         title={title || "Power BI Dashboard"}
         className="w-full h-full"
@@ -23,5 +25,6 @@ const PowerBIEmbed = ({ url, title }: PowerBIEmbedProps) => {
     </div>
   );
 };
+
 
 export default PowerBIEmbed;

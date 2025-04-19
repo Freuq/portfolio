@@ -11,7 +11,7 @@ const EmbeddedReportsPage = () => {
   
         <div className="flex flex-col justify-center items-center h-full text-center">
           <h1 className="text-2xl md:text-4xl font-bold mb-6">
-            Visualiza mis <span className="text-secondary">dashboards interactivos</span>
+            Dashboards interactivos <span className="text-secondary">de Power BI</span>
           </h1>
   
           <div className="w-full max-w-5xl space-y-10 px-4">
@@ -20,8 +20,6 @@ const EmbeddedReportsPage = () => {
               <PowerBIEmbed key={report.id} url={report.url} title={report.title} />
             ))}
   
-            {/* Tableau Embed */}
-            <TableauEmbed />
           </div>
         </div>
       </ContainerPage>
