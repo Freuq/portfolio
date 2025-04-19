@@ -11,6 +11,8 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 
+
+
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -25,6 +27,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Añadir el favicon aquí */}
+        <link
+          rel="icon"
+          href="/briefcase-business.svg" 
+        />
+      </head>
       <body className={urbanist.className}>
         <Navbar />
         <Header />
