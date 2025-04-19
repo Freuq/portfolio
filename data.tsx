@@ -145,24 +145,24 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/Freuq/galizia_weather",
         urlDemo: "https://galiziaweather.streamlit.app",
     },
-    {
+    /* {
         id: 2,
         title: "Recomendador para contratación en RRHH",
-        image: "/image-nlp.JPG",
+        image: "/image-nlp.png",
         urlGithub: "/error",
         urlDemo: "https://docs.google.com/presentation/d/1DmXi82t-lph2EGq6bsteWj3jHkB_EUvc5TLVrWrhKtY/edit?usp=sharing",
-    },
+    } ,*/
     {
         id: 3,
         title: "Alquileres Sector Inmobiliario",
-        image: "/image-eda.JPG",
+        image: "/image-sectorinmobiliario.png",
         urlGithub: "/error",
         urlDemo: "https://docs.google.com/presentation/d/1KgWz8XbZJF9RCYC9OU_mJKxXd5_WoeaB7f7WV4e1ngg/edit?usp=sharing",
     },
     {
         id: 4,
         title: "Mapa de: Eurocopa Alemania 2024",
-        image: "/image-mapeuro.JPG",
+        image: "/image-mapeuro.png",
         urlGithub: "https://github.com/Freuq/map_euro2024",
         urlDemo: "https://www.linkedin.com/posts/freuq_hoy-es-la-final-de-la-eurocopa-2024-y-activity-7218321583596027904-kPYl?utm_source=share&utm_medium=member_desktop",
     },

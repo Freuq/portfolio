@@ -18,7 +18,7 @@ const EmbeddedReportsPage = () => {
                 title="Power BI Dashboard"
                 width="100%"
                 height="100%"
-                src="https://app.powerbi.com/view?r=TU_URL"
+                src="https://app.powerbi.com/view?r=eyJrIjoiMmMyZjhkMDgtZWI0NS00Y2NkLThmZWItODQxNmViMTEzYzRkIiwidCI6IjAyNzYxMDQwLWRkYzYtNDU5NS05OTk2LTMyNzc0YTFmOTJmMyIsImMiOjl9"
                 frameBorder="0"
                 allowFullScreen
               ></iframe>
@@ -30,7 +30,7 @@ const EmbeddedReportsPage = () => {
                 title="Tableau Dashboard"
                 width="100%"
                 height="100%"
-                src="https://public.tableau.com/views/TU_VIZ_URL"
+                src="https://public.tableau.com/views/GoogleFiberCase/WHY_1?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link"
                 frameBorder="0"
                 allowFullScreen
               ></iframe>
