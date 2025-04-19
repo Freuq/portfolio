@@ -135,21 +135,21 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Recomendador para contratación en RRHH",
+        title: "⛅Morriña en Galicia",
         image: "/image-nlp.JPG",
+        urlGithub: "https://github.com/Freuq/galizia_weather",
+        urlDemo: "https://galiziaweather.streamlit.app",
+    },
+    {
+        id: 2,
+        title: "Recomendador para contratación en RRHH",
+        image: "/image-galiziaweather.png",
         urlGithub: "/error",
         urlDemo: "https://docs.google.com/presentation/d/1DmXi82t-lph2EGq6bsteWj3jHkB_EUvc5TLVrWrhKtY/edit?usp=sharing",
     },
     {
-        id: 2,
-        title: "Predicción de Alquiler por medio de DL",
-        image: "/image-preddiction.JPG",
-        urlGithub: "/error",
-        urlDemo: "",
-    },
-    {
         id: 3,
-        title: "EDA: Para Alquiler Sector Inmobiliario",
+        title: "Alquileres Sector Inmobiliario",
         image: "/image-eda.JPG",
         urlGithub: "/error",
         urlDemo: "https://docs.google.com/presentation/d/1KgWz8XbZJF9RCYC9OU_mJKxXd5_WoeaB7f7WV4e1ngg/edit?usp=sharing",
