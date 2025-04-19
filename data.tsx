@@ -214,7 +214,7 @@ export const powerBIReports = [
     },
     {
       id: 2,
-      title: "AdventureWorks",
+      title: "Adventure Works 2019",
       url: "https://app.powerbi.com/view?r=eyJrIjoiYjA1NDhhODItMjRlOS00ZmM2LTg4MGEtMDg5MDlhZjY2Y2E2IiwidCI6IjAyNzYxMDQwLWRkYzYtNDU5NS05OTk2LTMyNzc0YTFmOTJmMyIsImMiOjl9"
     }
   ];
