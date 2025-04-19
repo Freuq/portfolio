@@ -113,22 +113,27 @@ export const serviceData = [
     {
         icon: <Code/>,
         title: "Python",
-        description: "Scrapping, Development, ELT, Machine Learning, Deep Learning, PySpark, Streamlit, entre otras",
+        description: "Development, Scrapping, ELT, ML, DL, PySpark, Streamlit, etc",
+    },
+    {
+        icon: <Code/>,
+        title: "R",
+        description: "RStudio, Development, tidyverse, ML, OSPSuite, SparkR, etc",
     },
     {
         icon: <Database/>,
         title: "SQL",
-        description: "Utilizando MySQL o SQL Server, tengo manejo de consulta de datos (DQL) y de manipulación de datos (DML)",
+        description: "MySQL, SQL Server, PosgreSQL: in DQL and DML tasks",
     },
     {
         icon: <BarChartBig />,
         title: "Power BI",
-        description: "Manipulación de datos con M, implementación de medidas con DAX, backgrounds (Figma), modelado de datos",
+        description: "Manipulación de datos con M, limpieza con Power Query, implementación de medidas con DAX, fondos (Figma), modelado de datos",
     },
     {
         icon: <CandlestickChart />,
         title: "Tableau",
-        description: "Modelado de datos con bend y conexiones, implementación de campos calculados usando SQL",
+        description: "Modelado de datos con bend y conexiones, implementación de campos calculados usando SQL, diseño de dashboards",
     },
 ];
 
@@ -136,14 +141,14 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "⛅Morriña en Galicia",
-        image: "/image-nlp.JPG",
+        image: "/image-galiziaweather.png",
         urlGithub: "https://github.com/Freuq/galizia_weather",
         urlDemo: "https://galiziaweather.streamlit.app",
     },
     {
         id: 2,
         title: "Recomendador para contratación en RRHH",
-        image: "/image-galiziaweather.png",
+        image: "/image-nlp.JPG",
         urlGithub: "/error",
         urlDemo: "https://docs.google.com/presentation/d/1DmXi82t-lph2EGq6bsteWj3jHkB_EUvc5TLVrWrhKtY/edit?usp=sharing",
     },
