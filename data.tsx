@@ -1,5 +1,5 @@
 import { BookText, Folder, HomeIcon, UserRound, Linkedin, Rss, BarChartBig, CandlestickChart, Speech, Mail, Github, Database, Code } from "lucide-react";
-
+import React, { useEffect, useRef } from "react";
 
 
 
@@ -154,14 +154,14 @@ export const dataPortfolio = [
     } ,*/
     {
         id: 3,
-        title: "Alquileres Sector Inmobiliario",
+        title: "Sector Inmobiliario",
         image: "/image-sectorinmobiliario.png",
         urlGithub: "/error",
         urlDemo: "https://docs.google.com/presentation/d/1KgWz8XbZJF9RCYC9OU_mJKxXd5_WoeaB7f7WV4e1ngg/edit?usp=sharing",
     },
     {
         id: 4,
-        title: "Mapa de: Eurocopa Alemania 2024",
+        title: "Mapa Eurocopa 2024",
         image: "/image-mapeuro.png",
         urlGithub: "https://github.com/Freuq/map_euro2024",
         urlDemo: "https://www.linkedin.com/posts/freuq_hoy-es-la-final-de-la-eurocopa-2024-y-activity-7218321583596027904-kPYl?utm_source=share&utm_medium=member_desktop",
@@ -196,47 +196,53 @@ export const dataPortfolio = [
     }
 ];
 
-export const dataTestimonials = [
+
+
+const TableauEmbed = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const initTableau = () => {
+      const { tableau } = window as any;
+
+      if (tableau && containerRef.current) {
+        new tableau.Viz(containerRef.current, "https://public.tableau.com/views/GoogleFiberCase/WHY_1", {
+          width: "100%",
+          height: "100%",
+          hideTabs: true,
+          toolbar: "yes",
+        });
+      }
+    };
+
+    // Cargar el script de Tableau si no está presente
+    const scriptId = "tableau-api";
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement("script");
+      script.src = "https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js";
+      script.id = scriptId;
+      script.onload = initTableau;
+      document.body.appendChild(script);
+    } else {
+      initTableau();
+    }
+  }, []);
+
+  return (
+    <div className="w-full h-[600px]" ref={containerRef}></div>
+  );
+};
+
+export default TableauEmbed;
+
+
+
+/*export const dataTestimonials = [
     {
         id: 1,
-        name: "George Snow",
+        name: "",
         description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
+            "",
         imageUrl: "/profile1.png",
-    },
-    {
-        id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
-    },
-    {
-        id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
-    },
-    {
-        id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
-    },
-];
+    }
+];*/

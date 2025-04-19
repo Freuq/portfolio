@@ -1,5 +1,6 @@
 import ContainerPage from "@/components/container"
 import TransitionPage from "@/components/transition-page";
+import TableauEmbed from "@/data";
 
 const EmbeddedReportsPage = () => {
     return (
@@ -13,7 +14,7 @@ const EmbeddedReportsPage = () => {
   
           <div className="w-full max-w-5xl space-y-10 px-4">
             {/* Power BI Embed */}
-            <div className="w-full h-[600px]">
+            <div className="w-full h-full">
               <iframe
                 title="Power BI Dashboard"
                 width="100%"
@@ -26,14 +27,7 @@ const EmbeddedReportsPage = () => {
   
             {/* Tableau Embed */}
             <div className="w-full h-[600px]">
-              <iframe
-                title="Tableau Dashboard"
-                width="100%"
-                height="100%"
-                src="https://public.tableau.com/views/GoogleFiberCase/WHY_1?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link"
-                frameBorder="0"
-                allowFullScreen
-              ></iframe>
+                <TableauEmbed />
             </div>
           </div>
         </div>
