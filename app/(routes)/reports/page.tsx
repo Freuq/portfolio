@@ -19,11 +19,11 @@ const EmbeddedReportsPage = () => {
             {powerBIReports.map((report) => (
               <PowerBIEmbed key={report.id} url={report.url} title={report.title} />
             ))}
-          
           </div>
+          <br></br>
+          <br></br>
         </div>
-        <br></br>
-        <br></br>
+        
       </ContainerPage>
 
     );
