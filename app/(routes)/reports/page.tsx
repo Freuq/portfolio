@@ -20,8 +20,7 @@ const EmbeddedReportsPage = () => {
               <PowerBIEmbed key={report.id} url={report.url} title={report.title} />
             ))}
           </div>
-          <br></br>
-          <br></br>
+          <div className="h-16"></div>
         </div>
         
       </ContainerPage>
