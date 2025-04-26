@@ -9,7 +9,7 @@ const EmbeddedReportsPage = () => {
       <ContainerPage>
         <TransitionPage />
   
-        <div className="flex flex-col justify-center items-center h-full text-center">
+        <div className="flex flex-col justify-center items-center h-full text-center pb-20">
           <h1 className="text-2xl md:text-4xl font-bold mb-6">
             Dashboards de <span className="text-secondary">Power BI</span>
           </h1>
