@@ -156,8 +156,8 @@ export const dataPortfolio = [
         id: 3,
         title: "Sector Inmobiliario",
         image: "/image-sectorinmobiliario.png",
-        urlGithub: "/error",
-        urlDemo: "https://docs.google.com/presentation/d/1KgWz8XbZJF9RCYC9OU_mJKxXd5_WoeaB7f7WV4e1ngg/edit?usp=sharing",
+        urlGithub: "https://github.com/Freuq/real-estate-rental-analysis",
+        urlDemo: "https://www.kaggle.com/code/alfreuq/eda-real-estate-rental-analysis",
     },
     {
         id: 4,
