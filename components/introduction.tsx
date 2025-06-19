@@ -34,7 +34,7 @@ const Introduction = () => {
                     </h1>
 
                     <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                    Mi nombre es Alfredo Enrique, y sobre todo lo demás, soy amante de los datos. Soy licenciado en Geoquímica, y me he especializado durante los últimos años en el área del Análisis de Datos, donde me he mantenido en continuo aprendizaje. 
+                    Soy Alfredo Enrique, y sobre todo lo demás, soy amante de los datos. Licenciado en Geoquímica, con estudios en el área del Análisis de Datos, donde me he certificado con de Microsoft (PL-300) y Google (BI y DAP), además de estudios en universidades y otras formaciones. 
                     </p>
 
                     <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
